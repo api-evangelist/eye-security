@@ -1,8 +1,25 @@
 aid: eye-security
 name: Eye Security
-description: 'Eye Security is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Eye Security is a European cybersecurity company providing managed detection
+  and response (MDR) and managed XDR for mid-market organizations across logistics, manufacturing,
+  healthcare, and professional services. It combines AI-driven threat detection with a 24/7
+  Security Operations Center (SOC), incident response and threat hunting, security awareness
+  training, EU-native log retention, and integrated cyber insurance. Headquartered in Europe
+  with an EU-focused stance on compliance and data residency, Eye positions itself as
+  enterprise-grade security made for the mid-market. This API Evangelist profile tracks the
+  company''s public developer, security, and product surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.eye.security/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/eye-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cybersecurity
+- Managed Detection and Response
+- Managed XDR
+- Security Operations Center
+- Incident Response
+- Cyber Insurance
+- Threat Hunting
+- Europe
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/eye-security-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.eye.security/responsible-disclosure-policy
+- type: DomainSecurity
+  url: security/eye-security-domain-security.yml
+- type: Website
+  url: https://www.eye.security/
+- type: Portal
+  url: https://portal.eye.security/
+- type: Login
+  url: https://portal.eye.security/
+- type: Pricing
+  url: https://www.eye.security/pricing
+- type: Blog
+  url: https://www.eye.security/blog
+- type: PrivacyPolicy
+  url: https://www.eye.security/privacy
+- type: Support
+  url: https://www.eye.security/contact
+- type: SecurityTxt
+  url: https://www.eye.security/.well-known/security.txt
+- type: WellKnown
+  url: well-known/eye-security-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

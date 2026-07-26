@@ -1,0 +1,17 @@
+# Our security address
+Contact: mailto:security@eye.security
+
+# Our PGP key
+Encryption: https://www.eye.security/hubfs/sec-pgp-key.txt
+
+# Our responsible disclosure
+Policy: https://www.eye.security/responsible-disclosure-policy
+
+Canonical: https://www.eye.security/.well-known/security.txt
+Canonical: https://www.eye.security/security.txt
+Canonical: https://underwriting.eye.security/.well-known/security.txt
+Canonical: https://underwriting.eye.security/security.txt
+
+Preferred-Languages: en, nl, de
+Expires: 2027-05-01T00:00:00.000Z
+Hiring: https://jobs.eye.security/

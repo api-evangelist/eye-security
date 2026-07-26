@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.eye.security/.well-known/security.txt
+hosts:
+- https://www.eye.security
+- https://underwriting.eye.security
+documents:
+- path: /.well-known/security.txt
+  host: https://www.eye.security
+  status: 200
+  file: eye-security-security.txt
+- path: /.well-known/security.txt
+  host: https://underwriting.eye.security
+  status: 200
+  note: same canonical content as www host
+- path: /.well-known/openid-configuration
+  host: https://www.eye.security
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: https://www.eye.security
+  status: 404
+- path: /.well-known/api-catalog
+  host: https://www.eye.security
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: https://www.eye.security
+  status: 404
+notes: >-
+  portal.eye.security returns HTTP 200 for /.well-known/openid-configuration but the body is
+  the SPA HTML shell (SPA catch-all), not a real OIDC discovery document, so it is not indexed.
