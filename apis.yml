@@ -8,6 +8,17 @@ description: 'Eye Security is a European cybersecurity company providing managed
   with an EU-focused stance on compliance and data residency, Eye positions itself as
   enterprise-grade security made for the mid-market. This API Evangelist profile tracks the
   company''s public developer, security, and product surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
